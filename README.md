@@ -11,6 +11,6 @@ Estado do Projeto: 100% Concluído.
 Descrição: Meu segundo Projeto em Linguagem C! Que Une Conceitos de Biologia e Programação.
 
 <p align="center">
-  <img src="src/assets/ligação-de-nucleotideos (GIF).gif">
+  <img src="assets/ligação-de-nucleotideos (GIF).gif">
 </p>
 
