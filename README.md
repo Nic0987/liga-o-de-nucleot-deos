@@ -1,1 +1,1 @@
-# liga-o-de-nucleot-deos
+# ligacao-de-nucleotideos
