@@ -8,7 +8,8 @@ Matéria: Estrutura de Dados I
 
 Estado do Projeto: 100% Concluído.
 
-# Descrição: Meu segundo Projeto em Linguagem C! Que Une Conceitos de Biologia e Programação.
+Descrição: Meu segundo Projeto em Linguagem C! Que Une Conceitos de Biologia e Programação.
+##
 
 <p align="center">
   <img src="assets/ligação-de-nucleotideos (GIF).gif">
