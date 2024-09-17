@@ -12,6 +12,6 @@ Descrição: Meu segundo Projeto em Linguagem C! Que Une Conceitos de Biologia e
 ##
 
 <p align="center">
-  <img width="600" height="300" src="assets/ligação-de-nucleotideos (GIF).gif">
+  <img width="600" height="600" src="assets/ligação-de-nucleotideos (GIF).gif">
 </p>
 
