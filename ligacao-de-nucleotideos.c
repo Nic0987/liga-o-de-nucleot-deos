@@ -1,34 +1,33 @@
 /* DATA: 05/07/2023
- ACAD MICO: NICOLAS RYAN 
- RA (REGISTRO ACAD MICO): 22168634-5
+ ACAD√äMICO: NICOLAS RYAN 
  CURSO: ENGENHARIA DE SOFTWARE              
  DISCIPLINA: ESTRUTURA DE DADOS I
- MAPA - CONVERS√O DE NUCLEOTÕDEOS.*/
+ MAPA - CONVERS√ÉO DE NUCLEOT√çDEOS.*/
  
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
 
-//Estrutura do nÛ da fila
+//Estrutura do n√≥ da fila
 typedef struct no_fila {
     char nucleotideo;
     struct no_fila* proximo;
 } no_fila;
 
-//Estrutura do nÛ da pilha
+//Estrutura do n√≥ da pilha
 typedef struct no_pilha {
     char nucleotideo;
     struct no_pilha* proximo;
 } no_pilha;
 
-// Vari·veis globais
+// Vari√°veis globais
 typedef no_fila* ptr_fila;
 typedef no_pilha* ptr_pilha;
 ptr_fila fila;
 ptr_pilha pilha;
 
-// FunÁ„o para colocar um elemento na fila
+// Fun√ß√£o para colocar um elemento na fila
 void inserirFila(char nucleotideo) {
     ptr_fila novoNo = (ptr_fila)malloc(sizeof(no_fila));
     novoNo->nucleotideo = nucleotideo;
@@ -45,7 +44,7 @@ void inserirFila(char nucleotideo) {
     }
 }
 
-// FunÁ„o para remover um elemento da fila
+// Fun√ß√£o para remover um elemento da fila
 void excluirFila() {
     if (fila == NULL) {
         printf("Fila vazia.\n");
@@ -56,7 +55,7 @@ void excluirFila() {
     }
 }
 
-// FunÁ„o para imprimir a fila
+// Fun√ß√£o para imprimir a fila
 void imprimirFila() {
     ptr_fila temp = fila;
     while (temp != NULL) {
@@ -66,7 +65,7 @@ void imprimirFila() {
     printf("\n");
 }
 
-// FunÁ„o para colocar um elemento na pilha
+// Fun√ß√£o para colocar um elemento na pilha
 void inserirPilha(char nucleotideo) {
     ptr_pilha novoNo = (ptr_pilha)malloc(sizeof(no_pilha));
     novoNo->nucleotideo = nucleotideo;
@@ -74,7 +73,7 @@ void inserirPilha(char nucleotideo) {
     pilha = novoNo;
 }
 
-// FunÁ„o para remover um elemento da pilha
+// Fun√ß√£o para remover um elemento da pilha
 void excluirPilha() {
     if (pilha == NULL) {
         printf("Pilha vazia.\n");
@@ -85,7 +84,7 @@ void excluirPilha() {
     }
 }
 
-// FunÁ„o para imprimir a pilha
+// Fun√ß√£o para imprimir a pilha
 void imprimirPilha() {
     ptr_pilha temp = pilha;
     while (temp != NULL) {
@@ -105,22 +104,22 @@ int main() {
 
     do {
         printf("------------------------------------------------------\n");
-        printf("LIGA«’ES ENTRE OS NUCLEOTÕDEOS \n");
+        printf("LIGA√á√ïES ENTRE OS NUCLEOT√çDEOS \n");
         printf("------------------------------------------------------\n");
-        printf("MENU DE OP«’ES:\n");
+        printf("MENU DE OP√á√ïES:\n");
         printf("------------------------------------------------------\n");
-        printf(" 1. INSERIR SEQU NCIA DE NUCLEOTÕDEOS (A - C - T - G).\n");
+        printf(" 1. INSERIR SEQU√äNCIA DE NUCLEOT√çDEOS (A - C - T - G).\n");
         printf(" 2. CONVERTER ELEMENTOS PARA DUPLA FITA (DNA).\n");
-        printf(" 0. SAIR DA APLICA«√O.\n");
+        printf(" 0. SAIR DA APLICA√á√ÉO.\n");
         printf("------------------------------------------------------\n");
-        printf("DIGITE A OP«√O DESEJADA: ");
+        printf("DIGITE A OP√á√ÉO DESEJADA: ");
         scanf("%d", &op);
 
         switch (op) {
             case 1: {
                 system("cls");
                 char sequencia[100];
-                printf("Digite a SequÍncia de NucleotÌdeos: ");
+                printf("Digite a Sequ√™ncia de Nucleot√≠deos: ");
                 scanf("%s", sequencia);
                 int tamanho = strlen(sequencia);
                 int i;
@@ -129,7 +128,7 @@ int main() {
                     if (nucleotideo == 'A' || nucleotideo == 'C' || nucleotideo == 'T' || nucleotideo == 'G') {
                         inserirFila(nucleotideo);
                     } else {
-                        printf("NucleotÌdeo Inv·lido!\n", nucleotideo);
+                        printf("Nucleot√≠deo Inv√°lido!\n", nucleotideo);
                         system ("pause");
 						system ("cls");
                         ocorreuErro = 1;
@@ -147,7 +146,7 @@ int main() {
             case 2: {
                 system("cls");
                 if (fila == NULL && pilha == NULL) {
-                printf("A Fila e a Pilha Est„o Vazias, Por Favor Insira Dados V·lidos! \n\n");
+                printf("A Fila e a Pilha Est√£o Vazias, Por Favor Insira Dados V√°lidos! \n\n");
                 system ("pause");
                 system("cls");
 					break;
@@ -171,15 +170,15 @@ int main() {
                             inserirPilha('C');
                             break;
                         default:
-                            printf("NucleotÌdeo Inv·lido\n");
+                            printf("Nucleot√≠deo Inv√°lido\n");
                             ocorreuErro = 1;
                             break;
                     
                     }
                 }
-                    printf("A SequÍncia de NucleotÌdeos na Fila È: ");
+                    printf("A Sequ√™ncia de Nucleot√≠deos na Fila √©: ");
                     imprimirFila();
-                    printf("A SequÍncia de NucleotÌdeos na Pilha È: ");
+                    printf("A Sequ√™ncia de Nucleot√≠deos na Pilha √©: ");
                     imprimirPilha();
                     printf("\n");
 
@@ -202,7 +201,7 @@ int main() {
             }
 
             default:
-                printf("OpÁ„o inv·lida. Tente Novamente!\n");
+                printf("Op√ß√£o inv√°lida. Tente Novamente!\n");
                 system ("pause");
 				system ("cls");
 			    break;
