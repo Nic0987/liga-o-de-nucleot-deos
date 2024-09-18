@@ -8,12 +8,6 @@ O Objetivo Desse Projeto é Simular a Conversão de Sequências de DNA Utilizand
 
 É a Perfeita União da Biologia com a Programação 🍃
 
-# 🎬 Demonstração 
-
-<p align="center">
-  <img width="600" height="450" src="assets/ligação-de-nucleotideos (GIF).gif">
-</p>
-
 # ⚙️ Funcionalidades
 
 **O Projeto Apresenta as Seguintes Funcionalidades:**
@@ -47,6 +41,12 @@ A Pilha Armazena a Sequência Convertida, Correspondente à Segunda Fita de DNA.
 - inserirPilha( ): Insere um nucleotídeo na pilha.
 - excluirPilha( ): Remove um nucleotídeo da pilha.
 - imprimirPilha( ): Exibe todos os nucleotídeos na pilha.
+
+# 🎬 Demonstração 
+
+<p align="center">
+  <img width="600" height="450" src="assets/ligação-de-nucleotideos (GIF).gif">
+</p>
 
 # 📄 Autores 
 **Nicolas Ryan - Engenheiro de Software** 
