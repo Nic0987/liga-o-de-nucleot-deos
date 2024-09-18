@@ -1,4 +1,4 @@
-# ligacao-de-nucleotideos
+# Ligacao De Nucleotideos
 
 Linguagem Utilizada: C
 
