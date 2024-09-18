@@ -24,3 +24,25 @@ O Projeto Apresenta as Seguintes Funcionalidades:
 
 4. Operações Dinâmicas: Uso de estruturas dinâmicas para manipulação de filas e pilhas, com funções para inserir, excluir e imprimir os dados.
 
+# 🔗 Principais Estruturas 
+
+Fila Dinâmica (FIFO - First In, First Out)
+
+A fila armazena a sequência de nucleotídeos digitada pelo usuário. Nessa estrutura, o primeiro elemento inserido é o primeiro a ser removido.
+
+Funções Implementadas:
+
+- inserirFila(): Insere um nucleotídeo na fila.
+- excluirFila(): Remove um nucleotídeo da fila.
+- imprimirFila(): Exibe todos os nucleotídeos na fila.
+  
+Pilha Dinâmica (LIFO - Last In, First Out)
+
+A pilha armazena a sequência convertida, correspondente à segunda fita de DNA. Nessa estrutura, o último elemento inserido é o primeiro a ser removido.
+
+Funções Implementadas:
+
+- inserirPilha(): Insere um nucleotídeo na pilha.
+- excluirPilha(): Remove um nucleotídeo da pilha.
+- imprimirPilha(): Exibe todos os nucleotídeos na pilha.
+
