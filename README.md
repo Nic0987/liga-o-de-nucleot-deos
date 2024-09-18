@@ -6,7 +6,6 @@ Este projeto foi desenvolvido em Julho de 2023, como parte de uma Atividade Acad
 
 É a Perfeita União da Biologia com a Programação 🍃
 ##
-
 # 🎬 Demonstração 
 
 <p align="center">
