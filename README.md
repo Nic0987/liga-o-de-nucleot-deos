@@ -48,3 +48,8 @@ A Pilha Armazena a Sequência Convertida, Correspondente à Segunda Fita de DNA.
 - excluirPilha( ): Remove um nucleotídeo da pilha.
 - imprimirPilha( ): Exibe todos os nucleotídeos na pilha.
 
+# 📄 Autores 
+**Nicolas Ryan - Engenheiro de Software** 
+
+
+
