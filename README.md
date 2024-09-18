@@ -1,6 +1,6 @@
 # 🧬 Ligação De Nucleotídeos 
 
-# 📌 Sobre o Projeto 
+# 💻 Sobre o Projeto 
 
 Este Projeto Foi Desenvolvido em Julho de 2023, Como Parte de uma Atividade Acadêmica Sobre Estrutura de Dados em Linguagem C. 
 
