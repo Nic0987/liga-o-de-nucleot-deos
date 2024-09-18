@@ -2,9 +2,9 @@
 
 # 💻 Sobre o Projeto 
 
-Este Projeto Foi Desenvolvido em Julho de 2023, Como Parte de uma Atividade Acadêmica Sobre Estrutura de Dados em Linguagem C. 
+Este projeto foi desenvolvido em Julho de 2023, como parte de uma atividade acadêmica sobre Estrutura de Dados em Linguagem C. 
 
-O Objetivo Desse Projeto é Simular a Conversão de Sequências de DNA Utilizando Estruturas de Dados Dinâmicas, como Filas e Pilhas. O Programa Lê Uma Sequência de Nucleotídeos (A, C, T, G), a Armazena em uma Fila Dinâmica e, em Seguida, Converte essa Sequência Para uma Segunda Fita de DNA, Armazenando-a em uma Pilha Dinâmica.
+O objetivo desse projeto é simular a conversão de sequências de DNA utilizando estruturas de dados dinâmicas, como Filas e Pilhas. O programa lê uma sequência de nucleotídeos (A, C, T, G), a armazena em uma Fila Dinâmica e, em seguida, converte essa sequência para uma segunda fita de DNA, armazenando-a em uma Pilha Dinâmica.
 
 É a Perfeita União da Biologia com a Programação 🍃
 
