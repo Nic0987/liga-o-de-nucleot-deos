@@ -1,8 +1,10 @@
-# 🧬 Ligacao De Nucleotideos 
+# 🧬 Ligação De Nucleotídeos 
 
 # 📌 Sobre o Projeto 
 
-Este projeto foi desenvolvido em Julho de 2023, como parte de uma Atividade Acadêmica sobre Estrutura de Dados em Linguagem C. O objetivo desse projeto é simular a conversão de sequências de DNA utilizando estruturas de dados dinâmicas, como filas e pilhas. O programa lê uma sequência de nucleotídeos (A, C, T, G), a armazena em uma fila dinâmica e, em seguida, converte essa sequência para uma segunda fita de DNA, armazenando-a em uma pilha dinâmica.
+Este Projeto Foi Desenvolvido em Julho de 2023, Como Parte de uma Atividade Acadêmica Sobre Estrutura de Dados em Linguagem C. 
+
+O Objetivo Desse Projeto é Simular a Conversão de Sequências de DNA Utilizando Estruturas de Dados Dinâmicas, como Filas e Pilhas. O Programa Lê Uma Sequência de Nucleotídeos (A, C, T, G), a Armazena em uma Fila Dinâmica e, em Seguida, Converte essa Sequência Para uma Segunda Fita de DNA, Armazenando-a em uma Pilha Dinâmica.
 
 É a Perfeita União da Biologia com a Programação 🍃
 
@@ -28,21 +30,21 @@ O Projeto Apresenta as Seguintes Funcionalidades:
 
 Fila Dinâmica (FIFO - First In, First Out)
 
-A fila armazena a sequência de nucleotídeos digitada pelo usuário. Nessa estrutura, o primeiro elemento inserido é o primeiro a ser removido.
+A Fila Armazena a Sequência de Nucleotídeos Digitada pelo Usuário. Nessa estrutura, o Primeiro Elemento Inserido é o Primeiro a Ser Removido.
 
 Funções Implementadas:
 
-- inserirFila(): Insere um nucleotídeo na fila.
-- excluirFila(): Remove um nucleotídeo da fila.
-- imprimirFila(): Exibe todos os nucleotídeos na fila.
+- inserirFila( ): Insere um nucleotídeo na fila.
+- excluirFila( ): Remove um nucleotídeo da fila.
+- imprimirFila( ): Exibe todos os nucleotídeos na fila.
   
 Pilha Dinâmica (LIFO - Last In, First Out)
 
-A pilha armazena a sequência convertida, correspondente à segunda fita de DNA. Nessa estrutura, o último elemento inserido é o primeiro a ser removido.
+A Pilha Armazena a Sequência Convertida, Correspondente à Segunda Fita de DNA. Nessa estrutura, o Último Elemento Inserido é o Primeiro a Ser Removido.
 
 Funções Implementadas:
 
-- inserirPilha(): Insere um nucleotídeo na pilha.
-- excluirPilha(): Remove um nucleotídeo da pilha.
-- imprimirPilha(): Exibe todos os nucleotídeos na pilha.
+- inserirPilha( ): Insere um nucleotídeo na pilha.
+- excluirPilha( ): Remove um nucleotídeo da pilha.
+- imprimirPilha( ): Exibe todos os nucleotídeos na pilha.
 
