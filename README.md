@@ -16,7 +16,7 @@ O Objetivo Desse Projeto é Simular a Conversão de Sequências de DNA Utilizand
 
 # ⚙️ Funcionalidades
 
-O Projeto Apresenta as Seguintes Funcionalidades:
+**O Projeto Apresenta as Seguintes Funcionalidades:**
 
 1. Inserção de Sequência: O usuário pode inserir uma sequência de nucleotídeos (A, C, T, G).
 
@@ -28,21 +28,21 @@ O Projeto Apresenta as Seguintes Funcionalidades:
 
 # 🔗 Principais Estruturas 
 
-Fila Dinâmica (FIFO - First In, First Out)
+**Fila Dinâmica (FIFO - First In, First Out)**
 
 A Fila Armazena a Sequência de Nucleotídeos Digitada pelo Usuário. Nessa estrutura, o Primeiro Elemento Inserido é o Primeiro a Ser Removido.
 
-Funções Implementadas:
+**Funções Implementadas:**
 
 - inserirFila( ): Insere um nucleotídeo na fila.
 - excluirFila( ): Remove um nucleotídeo da fila.
 - imprimirFila( ): Exibe todos os nucleotídeos na fila.
   
-Pilha Dinâmica (LIFO - Last In, First Out)
+**Pilha Dinâmica (LIFO - Last In, First Out)**
 
 A Pilha Armazena a Sequência Convertida, Correspondente à Segunda Fita de DNA. Nessa estrutura, o Último Elemento Inserido é o Primeiro a Ser Removido.
 
-Funções Implementadas:
+**Funções Implementadas:**
 
 - inserirPilha( ): Insere um nucleotídeo na pilha.
 - excluirPilha( ): Remove um nucleotídeo da pilha.
